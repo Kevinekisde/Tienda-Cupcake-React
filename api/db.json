@@ -1,0 +1,119 @@
+{
+    "Cupcakes":[
+        {   
+            "id":1,
+            "Sabor":"Vainilla",
+            "Color":"Amarillo",
+            "Descripcion":"Rico Cupcake sabor vainilla clasica",
+            "Precio":500,
+            "imagen":"https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2020/04/como-hacer-cupcakes-de-vainilla-para-vender.jpg",
+            "estado":true
+        },
+        {
+            "id":2,
+            "Sabor":"Chocolate",
+            "Color":"Marron",
+            "Descripcion":"Rico Cupcake sabor Chocolate clasica",
+            "Precio":800,
+            "imagen":"https://cdn.kiwilimon.com/recetaimagen/21434/th5-640x640-24959.png",
+            "estado":true
+
+        },
+        {
+            "id": 3 ,
+            "Sabor":"Menta",
+            "Color":"Verde",
+            "Descripcion":"Rico Cupcake sabor menta clasica",
+            "Precio":1000,
+            "imagen":"https://i0.wp.com/www.pastelesdlulu.com/wp-content/uploads/2017/10/capa4-1.jpg?fit=433%2C650&ssl=1",
+            "estado":true
+
+        },
+        {
+            "id": 4 ,
+            "Sabor":"Frutilla",
+            "Color":"Rosado",
+            "Descripcion":"Rico Cupcake sabor Frutilla clasica",
+            "Precio":1500,
+            "imagen":"http://3.bp.blogspot.com/-aE312P-5PHs/T0SyOpIKmEI/AAAAAAAAuUY/UVUVI3j5sh0/s1600/IMG_2444.jpg",
+            "estado":true
+
+        },
+        {
+            "id": 5 ,
+            "Sabor":"Capuccino",
+            "Color":"Cafe",
+            "Descripcion":"Rico Cupcake sabor Cafe Capuccino",
+            "Precio":1100,
+            "imagen":"https://i.pinimg.com/550x/6a/16/86/6a168610ebc48401811771f89eb8180d.jpg",
+            "estado":true
+
+        },
+        {
+            "id": 6 ,
+            "Sabor":"Chocolate Blanco",
+            "Color":"Blanco con chips",
+            "Descripcion":"Rico Cupcake sabor Chocolate blanco con chips",
+            "Precio":1200,
+            "imagen":"https://prettysimplesweet.com/wp-content/uploads/2020/07/funfetti-cupcakes-recipe-500x500.jpg",
+            "estado":true
+
+        },
+        {
+            "id": 7 ,
+            "Sabor":"Merengue",
+            "Color":"Multicolor",
+            "Descripcion":"Rico Cupcake sabor Merengue",
+            "Precio":1200,
+            "imagen":"https://media.sube.la/media/8012/products/tgRshLlq93.jpg",
+            "estado":true
+
+        },
+        {
+            "id": 8 ,
+            "Sabor":"Platano y Nueces",
+            "Color":"Amarillo",
+            "Descripcion":"Rico Cupcake sabor Platano con nueces arriba",
+            "Precio":1500,
+            "imagen":"https://nuecesdecalifornia.com/wp-content/uploads/2013/07/mini-cupcake-de-platano-y-nueces.jpg",
+            "estado":true
+
+        },
+        {
+            "id": 9 ,
+            "Sabor":"Piña",
+            "Color":"Blanco",
+            "Descripcion":"Rico Cupcake sabor Piña",
+            "Precio":1500,
+            "imagen":"https://thedomesticrebel.com/wp-content/uploads/2020/04/PINA-COLADA-CUPCAKES-500x500.jpg",
+            "estado":true
+
+        },
+        {
+            "id": 10 ,
+            "Sabor":"Chocolate y fresa",
+            "Color":"Blanco",
+            "Descripcion":"Rico Cupcake Chocolate con fresa",
+            "Precio":1500,
+            "imagen":"https://horneandolasnubes.com/wp-content/uploads/2018/02/cupcakesChocoFresa1-500x500.jpg",
+            "estado":true
+
+        }
+        
+    ],
+    "Servicios":[
+        {
+            "id":1,
+            "Nombre":"Curso de Resposteria",
+            "Descripcion":"Este es un curso desde cero donde aprenderas a hacer Cupcakes",
+            "imagen":"https://d3puay5pkxu9s4.cloudfront.net/curso/4268/card_imagen.jpg"
+
+        },
+        {
+            "id":2,
+            "Nombre":"Delivery",
+            "Descripcion":"Ricos cupcakes llegaran a la puerta de tu casas",
+            "imagen":"https://simondecirene.cl/simondecirene_webtres/wp-content/uploads/2020/05/Delivery_1920x700.png"
+        }
+    ]
+}
