@@ -1,13 +1,14 @@
-import{useState} from 'react'
 
-const Cupcakes = ({imagen,Descripcion,Sabor,Color,Precio,estado}) =>{
-    const [vendido, setVendido] = useState(false)
-    const vender = () => {
-        setVendido(true)
+import {addToCart,deleteFromCart} from '../../Redux/ActionCreator'
+import { connect } from 'react-redux'
 
-    }
+const Cupcakes = ({id,imagen,Descripcion,Sabor,Color,Precio,cart,addCourseToCart,deleteCourseFromCart}) =>{
+    
+
+    
+
     return(
-        <div className="s-radius-1 s-shadow-bottom background s-shadow-card-micro white-color s-pxy-2 s-bg-white s-pxy-2">
+        <div  className="s-radius-1 s-shadow-bottom background s-shadow-card-micro white-color s-pxy-2 s-bg-white s-pxy-2">
             <img src={imagen} alt=""/>
 
             <p>{Descripcion}</p>
@@ -18,20 +19,43 @@ const Cupcakes = ({imagen,Descripcion,Sabor,Color,Precio,estado}) =>{
             <br></br>
             <span><b>Precio: {Precio} </b> </span>
             <br></br>
-            <p>
-            <b> Estado: </b>
             {
-                vendido ? "Vendido" : "A la venta"
-            }
-        </p>
-            {
-                !vendido && <button className = "button blue-500"onClick={vender}>Comprar</button>
+                cart.find(a => a === id)
+                ?
+                <button 
+                className = "button red-500 s-shadow"
+                onClick={()=> deleteCourseFromCart(id)}>
+                    Remover del carrito
+                    </button>
+                :
+                <button 
+                className = "button blue-500 s-shadow" 
+                onClick={()=> addCourseToCart(id)}>
+                Comprar
+
+                </button>
+                
+
             }
         </div>
     )
-
+   
     
 }
 
 
-export default Cupcakes
+
+const mapStateToProps= state => ({
+    cart: state.cart
+})
+
+const mapDispatchToProps = dispatch => ({ //recibe un dispatch
+    addCourseToCart(id){
+        dispatch(addToCart(id))
+    },
+    deleteCourseFromCart(id){
+        dispatch(deleteFromCart(id))
+    }
+})
+
+export default connect(mapStateToProps,mapDispatchToProps)(Cupcakes)

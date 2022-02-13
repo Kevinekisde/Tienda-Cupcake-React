@@ -6,7 +6,7 @@
             "Color":"Amarillo",
             "Descripcion":"Rico Cupcake sabor vainilla clasica",
             "Precio":500,
-            "imagen":"https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2020/04/como-hacer-cupcakes-de-vainilla-para-vender.jpg",
+            "imagen":"https://www.hola.com/imagenes/cocina/recetas/20200206159953/cupcakes-vainilla/0-779-440/cupcake-vainilla-m.jpg",
             "estado":true
         },
         {
@@ -25,7 +25,7 @@
             "Color":"Verde",
             "Descripcion":"Rico Cupcake sabor menta clasica",
             "Precio":1000,
-            "imagen":"https://i0.wp.com/www.pastelesdlulu.com/wp-content/uploads/2017/10/capa4-1.jpg?fit=433%2C650&ssl=1",
+            "imagen":"https://www.justsotasty.com/wp-content/uploads/2016/02/Mint-Chocolate-Cupcakes-500x500.jpg",
             "estado":true
 
         },
@@ -43,7 +43,7 @@
             "id": 5 ,
             "Sabor":"Capuccino",
             "Color":"Cafe",
-            "Descripcion":"Rico Cupcake sabor Cafe Capuccino",
+            "Descripcion":"Rico Cupcake sabor Cafe Capuccino clasico",
             "Precio":1100,
             "imagen":"https://i.pinimg.com/550x/6a/16/86/6a168610ebc48401811771f89eb8180d.jpg",
             "estado":true
@@ -63,7 +63,7 @@
             "id": 7 ,
             "Sabor":"Merengue",
             "Color":"Multicolor",
-            "Descripcion":"Rico Cupcake sabor Merengue",
+            "Descripcion":"Rico Cupcake sabor Merengue clasico",
             "Precio":1200,
             "imagen":"https://media.sube.la/media/8012/products/tgRshLlq93.jpg",
             "estado":true
@@ -83,7 +83,7 @@
             "id": 9 ,
             "Sabor":"Piña",
             "Color":"Blanco",
-            "Descripcion":"Rico Cupcake sabor Piña",
+            "Descripcion":"Rico Cupcake de sabor Piña clasica",
             "Precio":1500,
             "imagen":"https://thedomesticrebel.com/wp-content/uploads/2020/04/PINA-COLADA-CUPCAKES-500x500.jpg",
             "estado":true

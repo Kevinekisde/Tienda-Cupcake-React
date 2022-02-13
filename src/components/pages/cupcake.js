@@ -20,7 +20,8 @@ const Cupcake = ({peticion,title}) =>{
                 {
                  data.map(({id,imagen,Descripcion,Sabor,Color,Precio,vendido}) => (
                     <Cupcakes 
-                    key = {id}
+                    key={id}
+                    id = {id}
                     imagen = {imagen}
                     Descripcion = {Descripcion}
                     Color = {Color}

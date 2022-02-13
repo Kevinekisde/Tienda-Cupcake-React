@@ -1,4 +1,5 @@
 import {NavLink} from 'react-router-dom'
+import CartCounter from '../atoms/CartCounter'
 
 const Header = () =>(
     <header className="main-header">
@@ -11,6 +12,8 @@ const Header = () =>(
               <li><NavLink to="/">Incio</NavLink></li>
               <li><NavLink to="/cupcake">Productos</NavLink></li>
               <li><NavLink to="/nosotros">Nosotros</NavLink></li>
+              <CartCounter></CartCounter>
+              
             </ul>
           </nav>
           <div className="main-menu-toggle to-l" id="main-menu-toggle"></div>
