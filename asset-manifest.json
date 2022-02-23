@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Tienda-Cupcake-React/static/css/main.5748169a.css",
+    "main.js": "/Tienda-Cupcake-React/static/js/main.8d7ccfd0.js",
+    "index.html": "/Tienda-Cupcake-React/index.html",
+    "main.5748169a.css.map": "/Tienda-Cupcake-React/static/css/main.5748169a.css.map",
+    "main.8d7ccfd0.js.map": "/Tienda-Cupcake-React/static/js/main.8d7ccfd0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5748169a.css",
+    "static/js/main.8d7ccfd0.js"
+  ]
+}
