@@ -5,6 +5,7 @@
 
 <h3>Tecnologias Usadas:</h3>
 <ul>
+  <li>JavaScript</li>
   <li>React</li>
   <li>Redux</li>
   <li>Boostrap</li>
