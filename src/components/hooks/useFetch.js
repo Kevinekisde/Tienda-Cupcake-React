@@ -1,4 +1,6 @@
+import axios from "axios";
 import {useState, useEffect} from "react"
+
 
 const useFetch = (endpoint) =>{
 
@@ -6,8 +8,7 @@ const useFetch = (endpoint) =>{
     
 
     useEffect(() => {
-        fetch(`${process.env.REACT_APP_URL_API}${endpoint}`)
-        .then(response => response.json())
+        axios(`https://apimocha.com/cupcakes-kev/Cupcakes`)
         .then(data => setData(data))
 
     },[endpoint]);
